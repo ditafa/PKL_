@@ -1,0 +1,86 @@
+body {
+    background-image: url('pendopo1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: #343a40;
+    color: white;
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    transition: left 0.3s;
+    overflow-y: auto;
+    max-height: 100vh;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+}
+
+.submenu {
+    display: none;
+    padding-left: 30px;
+}
+
+.toggle-btn {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.welcome {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 50px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    display: block; /* Memastikan elemen tampil */
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 180px;
+}
+
+h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+body {
+    background-color: #f8f9fa; /* Warna background halaman */
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8); /* Ubah transparansi blok putih */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 50px; /* Perkecil form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+    margin: auto;
+    margin-top: 50px;
+}
